@@ -1,0 +1,17 @@
+{
+  "tiles_save_folder": "./images",
+  "combined_save_folder": "./combined",
+  "prompt_continue_after_estimate": true,
+  "start_tile_x": 550,
+  "start_tile_y": 750,
+  "end_tile_x": 600,
+  "end_tile_y": 800,
+  "placeholder": {
+    "type": "transparent", 
+    "color": "#EC407A"
+  },
+  "replace_transparency": {
+    "type": "transparent",
+    "color": "#FF6F00"
+  }
+}
