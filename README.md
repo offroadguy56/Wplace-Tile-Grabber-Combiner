@@ -14,10 +14,10 @@ This Python script will pull tiles from Wplace and save them for you.
 | `tiles_save_folder`              | string  | `"./images"`                | Your save location for the tiles.                                                          |
 | `combined_save_folder`           | string  | `"./combined"`              | Your save location for the stitched tiles.                                                 |
 | `prompt_continue_after_estimate` | boolean | `true` / `false`            | Whether you want to be prompted to continue after RAM estimate.                            |
-| `start_tile_x`                   | integer | e.g., `1100`                 | Starting tile X coordinate.                                                               |
-| `start_tile_y`                   | integer | e.g., `5324`                 | Starting tile y coordinate.                                                               |
-| `end_tile_x`                     | integer | e.g., `1145`                 | Ending tile x coordinate.                                                                 |
-| `end_tile_y`                     | integer | e.g., `5370`                 | Ending tile y coordinate.                                                                 |
+| `start_tile_x`                   | integer | e.g., `550`                 | Starting tile X coordinate.                                                               |
+| `start_tile_y`                   | integer | e.g., `750`                 | Starting tile y coordinate.                                                               |
+| `end_tile_x`                     | integer | e.g., `600`                 | Ending tile x coordinate.                                                                 |
+| `end_tile_y`                     | integer | e.g., `800`                 | Ending tile y coordinate.                                                                 |
 | `placeholder.type`               | string  | `"transparent"` / `"solid"` | Whether you want missing tiles from Wplace to be filled with a transparent or solid color. |
 | `placeholder.color`              | string  | e.g., `"#EC407A"`           | HEX value of the solid color (if type=`solid`).                                            |
 | `replace_transparency.type`      | string  | `"transparent"` / `"solid"` | Whether you want to replace all transparent pixels of all saved tiles with a solid color.  |
