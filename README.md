@@ -20,5 +20,5 @@ This Python script will pull tiles from Wplace and save them for you.
 | `end_tile_y`                     | integer | e.g., `800`                 | Ending tile y coordinate.                                                                 |
 | `placeholder_type`               | string  | `"transparent"` / `"solid"` | Whether you want missing tiles from Wplace to be filled with a transparent or solid color. |
 | `placeholder_color`              | string  | e.g., `"#EC407A"`           | HEX value of the solid color (if type=`solid`).                                            |
-| `replace_transparency.type`      | string  | `"transparent"` / `"solid"` | Whether you want to replace all transparent pixels of all saved tiles with a solid color.  |
-| `replace_transparency.color`     | string  | e.g., `"#FF6F00"`           | HEX value of the solid color (if type=`solid`).                                            |
+| `replace_transparency_type`      | string  | `"transparent"` / `"solid"` | Whether you want to replace all transparent pixels of all saved tiles with a solid color.  |
+| `replace_transparency_color`     | string  | e.g., `"#FF6F00"`           | HEX value of the solid color (if type=`solid`).                                            |
